@@ -15,10 +15,10 @@ This project implements a simple contact form using React and the `useForm` hook
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/simple-contact-form.git
-cd simple-contact-form
+git clone https://github.com/Rediet-W/contact-form-with-react.git
+cd contact-form-with-react
 npm install
-npm start
+npm run dev
 ```
 
 Open your browser and navigate to http://localhost:3000 to view and interact with the contact form.

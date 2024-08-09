@@ -6,7 +6,7 @@ import { ContactForm } from './components/contactForm';
 function App() {
 
   return (
-    <div>
+    <div className='container'>
       <h1>Contact Form</h1>
       <ContactForm />
     </div>
