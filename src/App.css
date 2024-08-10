@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #ffffff;
+  background-color:transparent;
   border-radius: 8px;
   max-height: 95%;
 }
@@ -48,4 +48,9 @@ body {
   background-color: #d2d5d6; }
 #submit{
   color:white
+}
+body {
+  background-image: url(../public/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
