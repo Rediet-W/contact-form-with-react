@@ -26,14 +26,14 @@ Open your browser and navigate to http://localhost:3000 to view and interact wit
 ### Images
 
 ### default state with all fields empty and no validation messages displayed.
-![Screenshot](public/ui.png)
+![Screenshot](public/style.png)
 
 ### displaying error messages indicating that the Name, Email, and Message fields are required.
-![Screenshot](public/required.png)
+![Screenshot](public/required2.png)
 
 ### An error message for the Email field, indicating that the entered email format is invalid.
-![Screenshot](public/invalid.png)
+![Screenshot](public/invalid_email.png)
 
 ### With all fields filled out correctly and no error messages displayed
-![Screenshot](public/valid.png)
+![Screenshot](public/valid2.png)
 
