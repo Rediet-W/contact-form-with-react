@@ -35,5 +35,5 @@ Open your browser and navigate to http://localhost:3000 to view and interact wit
 ![Screenshot](public/invalid_email.png)
 
 ### With all fields filled out correctly and no error messages displayed
-![Screenshot](public/valid2.png)
+![Screenshot](public/valid3.png)
 
