@@ -1,4 +1,5 @@
 import React from 'react';
+import validator from 'validator'
 import {useForm} from 'react-hook-form';
 import {DevTool} from '@hookform/devtools';
 
@@ -21,13 +22,14 @@ export const ContactForm = () => {
             <p className='errors'>{errors.name?.message}</p>
 
             <label htmlFor='email'>Email</label>
-            <input type="email" id="email" {...register('email',{
-                required: 'Email is Required',
-                pattern: {
-                    value: /^[a-zA-Z0-9. _%+-]+@[a-zA-Z0-9. -]+\.[a-zA-Z]{2,}$/,
-                    message: 'Invalid email format'
-                }
-            })}/>
+            <input
+  type="email"
+  id="email"
+  {...register('email', {
+    required: 'Email is Required',
+    validate: (value) => validator.isEmail(value) || 'Invalid email format',
+  })}
+/>
             <p className='errors'>{errors.email?.message}</p>
 
             <label htmlFor='message'>Message</label>
